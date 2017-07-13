@@ -1,0 +1,170 @@
+﻿
+.main {
+    position: relative;
+    top: 30px;
+}
+
+body {
+   background: linear-gradient(rgba(8, 8, 8, 0.7), rgba(8, 8, 8, 0.7)), url(/images/mortgage_calculator.jpg)no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    /*height: 100vh;*/
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.container {
+    /*background-color: rgba(51, 110, 142, 0.8);*/
+    background-color: rgba(15, 71, 140, 0.7);
+    color: #ecd49c;
+    text-align: center;
+}
+
+.containerBody {
+    background-color: rgba(10, 33, 45, 0.7);
+    height: auto;
+}
+
+h4 {
+    padding: 14px;
+}
+
+input {
+    color: black !important;
+}
+
+.formC {
+    position: relative;
+    top: 5vh;
+    left: 0px;
+    color: #ecd49c;
+    text-align: left;
+    background-color: rgba(51, 110, 142, 0.7);
+    padding: 20px 0px 0px 0px;
+    height: auto !important;
+}
+.form-control {
+    display: inline;
+    width: 220px;
+    height: 31px;
+   
+}
+.labelF {
+    padding-right: 123px;
+    text-align: left;
+}
+
+.labelC {
+    padding-right:86px;
+    text-align: left;
+}
+.labelA {
+    padding-right: 101px;
+    text-align: left;
+    color: rgba(255, 237, 0, 0.8);
+    font-weight: 600;
+    letter-spacing:0.2px;
+}
+th {
+    text-align: center;
+}
+.leftside {
+    padding: 45px 0px 0px 70px !important;
+    /*position:relative;*/
+}
+h2 {
+    padding: 0px 0px 29px 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: #ead80a;
+}
+h1 {
+    font-size: 36px;
+    color: rgba(255, 232, 1, 0.9);
+    font-weight: 600;
+    font-variant: small-caps;
+    letter-spacing:0.5px;
+}
+    #BtnReset {
+    margin-left: 100px;
+}
+
+.rightSide {
+    padding-left: 70px;
+}
+
+#LegendText {
+    fill-opacity: 1;
+    font-size: 11px;
+    font-family: Arial,Helvetica,sans-serif;
+    fill: #232323;
+    display: none;
+}
+
+@media (min-width: 500px) {
+
+    .formC {
+        left: 0px;
+    }
+    
+    #BtnReset {
+        margin-left: 20px; 
+    }
+}
+#chartContainer {
+    height:250px;
+}
+#gvAmort {
+    color: #ECD49C;
+    width: 100%;
+    border-collapse: collapse;
+    /* height: 100px; */
+    margin-top: -22px;
+    margin-bottom: -22px;
+}
+#pnlAmort {
+    height: 350px;
+    width: 100%;
+    overflow-y: scroll;
+    border: 4px solid #263d52;
+    padding: 0px;
+    overflow-x:hidden;
+    margin-bottom:15px;
+}
+#lblExtra {
+    text-align: center;
+    font-size:18px;
+    padding-top:43px;
+    }
+
+.label-info {
+    background-color: #91b0c9;
+    text-align: center;
+    height: 32px;
+    /* width: 224px; */
+    color: darkblue;
+    font-weight: 600;
+    padding: 0px;
+    margin-bottom: 26px;
+    font-size: 20px;
+}
+.btn-default {
+    color: #d3cf1b !important;
+    background-color: #0f3667;
+    border-color: #15427a;
+    font-size: 18px;
+}
+    .btn-default:hover {
+        color: #d3cf1b !important;
+        background-color: #284f88;
+        border-color: #284f88;
+    }
+#lblTIP{
+    color: #e4d60f;
+    font-weight: 600;
+}
+#lblMP {
+    color: #e4d60f;
+    font-weight: 600;
+}
